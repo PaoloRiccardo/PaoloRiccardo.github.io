@@ -35,9 +35,6 @@
     margin: 20px;
 }
 
-.sezione-immagini{
-    padding-bottom: 3rem;
-}
 .sezione-immagini .immagine {
     min-height: 30rem;
     background-size: cover;
@@ -48,7 +45,7 @@
 }
 
 .btn{
-    background-color: grey;
+    background-color: rgb(138, 4, 4);
     color: beige;
     border: none;
 }
@@ -69,6 +66,18 @@
 .list-inline-item svg{
     font-size: 30px;
 }
+
+.form-email {
+    background-color: rgb(117, 117, 117);
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: bottom;
+}
+
 
 
 @media screen and (min-width: 768px) {
