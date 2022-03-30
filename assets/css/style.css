@@ -1,0 +1,79 @@
+.head-banner {
+    background-color: rgb(117, 117, 117);
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}
+.titolo-descrizione {
+    padding-top: 7rem;
+    font-size: 30px;
+}
+
+.immagine-personale{
+    
+    padding-top: 4rem;
+}
+.immagine-personale img{
+    height: 250px;
+    width: 250px;
+}
+
+.testo-personale {
+    font-size: 20px;
+    padding-top: 4rem;
+}
+.icon {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.bi {
+    font-size: 60px;
+    margin: 20px;
+}
+
+.sezione-immagini{
+    padding-bottom: 3rem;
+}
+.sezione-immagini .immagine {
+    min-height: 30rem;
+    background-size: cover;
+    background-position: center;
+}
+.sezione-immagini .testo{
+    padding: 3rem;
+}
+
+.btn{
+    background-color: grey;
+    color: beige;
+    border: none;
+}
+.descrizione{
+    margin: 5px;
+    text-align: left;
+}
+.footer{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.list-inline-item a{
+    color: white;
+}
+.list-inline-item {
+    font-size: 15px;
+}
+.list-inline-item svg{
+    font-size: 30px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .head-banner {
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+}
