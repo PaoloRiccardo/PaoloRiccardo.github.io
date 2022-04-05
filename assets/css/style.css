@@ -1,5 +1,5 @@
-.navbar{
-    font-family: cursive;
+.navbar-brand{
+    padding: 20px;
 }
 .head-banner {
     background-color: rgb(117, 117, 117);
@@ -66,7 +66,7 @@
    
 }
 .titoli-inserzione {
-    font-family: cursive;
+    
     padding-bottom: 2rem;
 }
 .descrizione-inserzione {
@@ -110,11 +110,20 @@
 
 @media screen and (max-width:767px) {
     .head-banner{
-    padding-top: 20rem;
-    padding-bottom: 5rem;
+    padding-top: 12rem;
+    padding-bottom: 6rem;
 }
-    
+.navbar-icon{
+    display: none;
 }
+
+.descrzione{
+    font-size: 29px;
+}
+.icon {
+    font-size: 20px;
+}
+} 
 @media screen and (min-width: 768px) {
     .head-banner {
         padding-top: 12rem;
